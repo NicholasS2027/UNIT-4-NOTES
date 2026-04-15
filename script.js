@@ -18,6 +18,12 @@ console.log(ageDogYears);
 let plutoHumanAge = 12 * 7;
 console.log(plutoHumanAge);
 
+// PEMDAS applies when you have multiple operators
+let score = 0;
+score = score + 20 - 2 / 3 * (6 - 5);
+console.log(score);
+
+
 // Combine 2 "literal" strings (CONCATENATION)
 console.log("hello " + " world");
 // OR concatenate a literal string with a variable
@@ -25,3 +31,7 @@ console.log("My age is " + age);
 console.log("My age in ten years is " + ageInTen);
 console.log("My age in dog years is " + ageDogYears);
 
+// can also concatenate while making variables
+let userName = "nick.strazicic";
+let message = "Welcome " + userName + "!";
+console.log(message)
